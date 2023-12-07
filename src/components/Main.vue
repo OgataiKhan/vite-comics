@@ -2,13 +2,13 @@
 
 
 export default {
-  name: 'JumbotronComponent',
+  name: 'MainComponent',
 };
 
 </script>
 
 <template>
-  
+  <div>main</div>
 </template>
 
 <style scoped>
