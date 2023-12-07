@@ -46,6 +46,7 @@ header {
 .logo {
   width: 80px;
   padding: 19px 0;
+  flex-shrink: 0;
 }
 
 .header-menu {

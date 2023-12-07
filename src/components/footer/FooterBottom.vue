@@ -73,6 +73,7 @@ export default {
     padding: 14px;
     margin: 30px 0;
     cursor: pointer;
+    font-family: 'Asap', sans-serif;
   }
   .footer-bottom-right {
     display: flex;
@@ -80,6 +81,7 @@ export default {
     p {
       color: $secondary-color;
       padding-right: 30px;
+      font-size: 1.3rem;
     }
     .social-list {
       display: flex;
