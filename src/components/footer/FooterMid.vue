@@ -65,7 +65,6 @@ h4 {
 }
 
 ul {
-  list-style: none;
   padding-right: 30px;
   li {
     line-height: 1.5;

@@ -50,7 +50,6 @@ header {
 }
 
 .header-menu {
-  list-style: none;
   display: flex;
   height: 100%;
   align-items: center;
