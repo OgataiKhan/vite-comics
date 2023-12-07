@@ -56,7 +56,6 @@ header {
   align-items: center;
   gap: 33px;
   text-transform: uppercase;
-  font-family: 'Asap Condensed', sans-serif;
   font-weight: 500;
 
   li {

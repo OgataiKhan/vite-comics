@@ -2,26 +2,22 @@
 
 
 export default {
-  name: 'MainComponent',
+  name: 'FooterBottom',
 };
 
 </script>
 
 <template>
-  <main>
+  <div class="footer-bottom">
     <div class="container">
-    --&gt; Content goes here &lt;--
+      footer bottom
     </div>
-  </main>
+  </div>
 </template>
 
 <style lang="scss" scoped>
-@use '../styles/general.scss' as *;
-
-main {
-  height: 200px;
-  font-size: 1.5rem;
-}
+// @use '../../styles/partials/variables.scss' as *;
+@use '../../styles/general.scss' as *;
 
 .container {
   @include container;
