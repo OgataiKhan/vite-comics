@@ -3,6 +3,11 @@
 
 export default {
   name: 'HeaderComponent',
+  data() {
+    return {
+      listNav: ['Characters', 'Comics', 'Movies', 'TV', 'Games', 'Collectibles', 'Videos', 'Fans', 'News', 'Shop'],
+    };
+  },
 };
 
 </script>
@@ -15,14 +20,8 @@ export default {
       </div>
       <nav class="navbar">
         <ul class="header-menu">
-          <li>
-            <a href="#">Placeholder</a>
-          </li>
-          <li>
-            <a href="#">Placeholder</a>
-          </li>
-          <li>
-            <a href="#">Placeholder</a>
+          <li v-for="item in listNav">
+            <a href="#">{{ item }}</a>
           </li>
         </ul>
       </nav>
