@@ -53,9 +53,15 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-// @use '../../styles/partials/variables.scss' as *;
 @use '../../styles/general.scss' as *;
 
+.footer-mid {
+  background-image: url(../../assets/dc-logo-bg.png), url(../../assets/footer-bg.jpg);
+  background-size: 580px, cover;
+  background-repeat: no-repeat;
+  background-position: left 80% center, left top;
+  // background-attachment: fixed;
+}
 .container {
   @include container;
   display: flex;
