@@ -59,14 +59,13 @@ header {
 
   li {
     height: 100%;
-    display: flex;
-    align-items: center;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
 
     &:hover {
       border-bottom: 5px solid $secondary-color;
       cursor: pointer;
+
       a {
         color: $secondary-color;
       }
@@ -75,6 +74,9 @@ header {
     a {
       color: #464646;
       text-decoration: none;
+      height: 100%;
+      display: flex;
+      align-items: center;
     }
   }
 }
