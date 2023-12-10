@@ -53,6 +53,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../../styles/partials/variables.scss' as *;
 @use '../../styles/general.scss' as *;
 
 .footer-mid {
@@ -60,7 +61,6 @@ export default {
   background-size: 580px, cover;
   background-repeat: no-repeat;
   background-position: left 80% center, left top;
-  // background-attachment: fixed;
 }
 .container {
   @include container;
@@ -82,6 +82,9 @@ ul {
     font-size: 0.9rem;
     color: #959595;
     text-decoration: none;
+    &:hover {
+      color: $base-font;
+    }
   }
 }
 
