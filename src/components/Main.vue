@@ -16,7 +16,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../styles/general.scss' as *;
+@use '../styles/partials/mixins.scss' as *;
 
 main {
   height: 200px;

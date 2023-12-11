@@ -19,8 +19,4 @@ export default {
   <FooterComponent />
 </template>
 
-<style lang="scss">
-@use './styles/partials/variables.scss' as *;
-@use './styles/general.scss' as *;
-
-</style>
+<style lang="scss"></style>

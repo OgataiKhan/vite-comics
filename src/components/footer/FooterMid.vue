@@ -54,7 +54,7 @@ export default {
 
 <style lang="scss" scoped>
 @use '../../styles/partials/variables.scss' as *;
-@use '../../styles/general.scss' as *;
+@use '../../styles/partials/mixins.scss' as *;
 
 .footer-mid {
   background-image: url(../../assets/dc-logo-bg.png), url(../../assets/footer-bg.jpg);
