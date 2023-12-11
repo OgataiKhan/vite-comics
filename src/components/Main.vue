@@ -33,7 +33,7 @@ main {
 }
 
 .jumbo {
-  aspect-ratio: 5;
+  aspect-ratio: 4.8;
   overflow: hidden;
 }
 </style>
