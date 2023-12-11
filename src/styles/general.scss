@@ -7,6 +7,7 @@ IMPORT
 @use './partials/variables.scss' as *;
 @use './partials/reset.scss' as *;
 @use './partials/mixins.scss' as *;
+@use './partials/typography.scss' as *;
 
 /* 
 ********
@@ -16,8 +17,6 @@ COMMON
 
 body {
   background-color: $base-color;
-  color: $base-font;
-  font-family: 'Asap Condensed', sans-serif;
 }
 
 img {

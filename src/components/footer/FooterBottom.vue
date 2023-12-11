@@ -73,7 +73,6 @@ export default {
     padding: 14px;
     margin: 30px 0;
     cursor: pointer;
-    font-family: 'Asap', sans-serif;
   }
   .footer-bottom-right {
     display: flex;

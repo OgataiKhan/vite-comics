@@ -16,14 +16,12 @@ export default {
   <main>
     <Jumbotron />
     <div class="container">
-      <h2>Current Series</h2>
-    --&gt; Content goes here &lt;--
+      <Section1 />
     </div>
   </main>
 </template>
 
 <style lang="scss" scoped>
-@use '../styles/partials/variables.scss' as *;
 @use '../styles/partials/mixins.scss' as *;
 
 main {
@@ -32,14 +30,6 @@ main {
 
 .container {
   @include container;
-  h2 {
-    text-transform: uppercase;
-    padding: 10px 30px;
-    color: $base-font;
-    background-color: $secondary-color;
-    display: inline-block;
-    transform: translateY(-30px);
-  }
 }
 
 .jumbo {
