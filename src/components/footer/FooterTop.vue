@@ -68,6 +68,8 @@ export default {
     display: flex;
     justify-content: space-around;
     padding: 50px 0;
+    flex-wrap: wrap;
+    row-gap: 10px;
 
     li {
       display: flex;

@@ -52,13 +52,14 @@ header {
 .header-menu {
   display: flex;
   height: 100%;
-  align-items: center;
+  align-items: stretch;
   gap: 33px;
   text-transform: uppercase;
   font-weight: 500;
+  flex-wrap: wrap;
+
 
   li {
-    height: 100%;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
 
