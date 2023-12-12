@@ -122,6 +122,7 @@ export default {
         text-transform: uppercase;
         font-size: 1.1rem;
         padding-top: 20px;
+        word-wrap: break-word;
       }
     }
   }
